@@ -1,0 +1,40 @@
+/*
+* Ashley DeFrehn
+* April 9, 2019
+* Martinique Project
+*/
+
+/* The universal selector */
+/* Below is how I set the width and height on my images on my Martinique Travel Project */
+
+    img {width: 600px; height: 400px}
+#Beach {width: 600px; height: 400px;}
+#Flag {width:300px; height: 200px;}
+#Food {width:350px; height: 250px;}
+#Family {width:350px; height:250px; }
+
+.nofloat {clear: both;}
+
+/*Below is the images that i floated for my page */
+
+#flagfig {float:right;}
+#foodfig {float: left;}
+#familyfig {float:right;}
+
+
+
+/*Below is the font I choose for my page */
+* {
+font-family: monospace;
+}
+
+/* Body attributes here */
+/* Below is the background color for my page and the wisth of the overall page on the viewers screen */
+body{
+    
+background-color: aliceblue;
+width: 85%;
+margin: auto;
+}
+/* Below is the porder and font of the data on my page */ 
+table, td, th {border: 3px solid pink;}
